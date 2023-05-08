@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on write c# scripts for Unity games and create cyber security tools<br>🌱 I’m currently learning c,c++,c# and python<br>
+🔭 I’m currently working on write c#,C++,C,dart and python scripts and create cyber security tools<br>🌱 I’m currently learning c,c++,c# and python<br>
 
 
 ## 🌐 Socials:
