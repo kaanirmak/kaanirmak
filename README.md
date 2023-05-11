@@ -12,4 +12,4 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=kaanirmak&theme=react&hide_border=true&background=00000000)](https://git.io/streak-stats)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kaanirmak&langs_count=8&count_private=false&layout=compact&theme=react&hide_border=true&bg_color=0D1117)<br/>
 ### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=reach&hide_border=true&background=00000000)<br/>
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=reach&hide_border=true&background=00000000)<br/><br/>
