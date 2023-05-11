@@ -11,6 +11,9 @@
 ![](https://github-readme-stats.vercel.app/api?username=kaanirmak&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kaanirmak&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kaanirmak&theme=dark&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaanirmak&theme=dark)
+
+
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)
