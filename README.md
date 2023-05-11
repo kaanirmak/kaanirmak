@@ -11,6 +11,9 @@
 ![](https://github-readme-stats.vercel.app/api?username=kaanirmak&theme=react&hide_border=true&include_all_commits=true&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=kaanirmak&theme=react&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kaanirmak&langs_count=8&count_private=false&layout=compact&theme=react&hide_border=true&bg_color=0D1117)
+![](https://github-readme-stats.vercel.app/api??username=kaanirmak&langs_count=8&count_private=false&layout=compact&theme=react&hide_border=true&bg_color=0D1117)
+![](https://github-readme-streak-stats.herokuapp.com/?username=kaanirmak&langs_count=8&count_private=false&layout=compact&theme=react&hide_border=true&bg_color=0D1117)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=kaanirmak&langs_count=8&count_private=false&layout=compact&theme=react&hide_border=true&bg_color=0D1117)
 
 
 ### ✍️ Random Dev Quote
