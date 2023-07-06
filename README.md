@@ -2,6 +2,7 @@
 🔭I’m currently working on write c#,C++,C,dart and python scripts and create cyber security tools<br>🌱I’m currently learning c,c++,c# and python
 
 [![](https://visitcount.itsvg.in/api?id=Kaanirmak&icon=2&color=6)](https://visitcount.itsvg.in)
+https://wakatime.com/badge/user/50021905-9972-4729-9e78-2a54336f38b4.svg
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kaanirmak)
 # 💻 Tech Stack:
