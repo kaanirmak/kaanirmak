@@ -12,8 +12,3 @@
 
 
 
-[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=@kaanirmak)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
-https://wakatime.com/share/@kaanirmak/e9cc73fb-421d-49c2-84b8-a7a16af84e92.svg
