@@ -16,4 +16,4 @@
 
 
 
-<figure><embed src="https://wakatime.com/share/@kaanirmak/3ee58a95-d71d-4010-97ad-b61a610d430a.svg"></embed></figure>
+https://wakatime.com/share/@kaanirmak/e9cc73fb-421d-49c2-84b8-a7a16af84e92.svg
