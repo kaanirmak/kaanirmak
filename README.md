@@ -6,6 +6,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/badge/Depolar_(Repos)-13-blue?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/Commitler_(Commits)-238-red?style=for-the-badge&logo=github"/>
   <img src="https://img.shields.io/badge/Yıldızlar_(Stars)-5-yellow?style=for-the-badge&logo=github"/>
   <img src="https://img.shields.io/badge/Takipçi_(Followers)-16-success?style=for-the-badge&logo=github"/>
 </div>

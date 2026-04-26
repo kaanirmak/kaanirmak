@@ -23,11 +23,24 @@ def get_github_stats(username, token):
     repos_data = repos_resp.json()
     
     total_stars = sum(repo.get("stargazers_count", 0) for repo in repos_data)
+
+    # Get total commits
+    search_headers = headers.copy()
+    search_headers["Accept"] = "application/vnd.github.cloak-preview"
+    commits_url = f"https://api.github.com/search/commits?q=author:{username}"
+    commits_resp = requests.get(commits_url, headers=search_headers)
+    
+    total_commits = 0
+    if commits_resp.status_code == 200:
+        total_commits = commits_resp.json().get("total_count", 0)
+    else:
+        print(f"Warning: Failed to fetch commits: {commits_resp.text}")
     
     return {
         "followers": followers,
         "public_repos": public_repos,
-        "total_stars": total_stars
+        "total_stars": total_stars,
+        "total_commits": total_commits
     }
 
 def update_readme(stats):
@@ -39,6 +52,7 @@ def update_readme(stats):
     stats_markdown = f"""
 <div align="center">
   <img src="https://img.shields.io/badge/Depolar_(Repos)-{stats['public_repos']}-blue?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/Commitler_(Commits)-{stats['total_commits']}-red?style=for-the-badge&logo=github"/>
   <img src="https://img.shields.io/badge/Yıldızlar_(Stars)-{stats['total_stars']}-yellow?style=for-the-badge&logo=github"/>
   <img src="https://img.shields.io/badge/Takipçi_(Followers)-{stats['followers']}-success?style=for-the-badge&logo=github"/>
 </div>
