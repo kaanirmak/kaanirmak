@@ -1,111 +1,95 @@
- <!-- Replace the contents of https://github.com/kaanirmak/kaanirmak/blob/main/README.md with this file -->
-
-<div align="center">
-
-# Kaan Irmak
+# 👋 Hi, I'm Kaan Irmak
 
 ### Software Engineer | AI/ML Engineer | Cybersecurity & FinTech
 
-**Building intelligent systems. Engineering secure solutions. Turning ideas into products.**
+I’m a Software Engineer focused on **Artificial Intelligence, Machine Learning, Cybersecurity, and Financial Technology**. I enjoy building practical, secure, and scalable software solutions — from intelligent data-driven systems to enterprise-grade AI applications.
 
-<a href="https://www.linkedin.com/in/kaanirmak/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://github.com/kaanirmak"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-
-<img src="https://komarev.com/ghpvc/?username=kaanirmak&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile views" />
-
-</div>
+- 🔭 Working on AI-powered financial systems and secure software architectures
+- 🤖 Interested in LLMs, RAG, ML/DL, and intelligent automation
+- 🔐 Exploring cybersecurity, anomaly detection, and DevSecOps
+- 📈 Interested in algorithmic trading, market intelligence, and financial technologies
+- 🌱 Continuously learning, building, and experimenting with new technologies
 
 ---
 
-## About Me
+## 🛠️ Tech Stack
 
-I'm a Software Engineer interested in designing and developing intelligent, scalable, and security-focused software systems.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cs,dotnet,java,flutter,dart,js,ts,html,css,fastapi,git,github,docker,linux,bash,postgres,mysql,sqlite,redis,aws,gcp&perline=11" alt="Technology stack" />
+</p>
 
-My work spans **Artificial Intelligence, Machine Learning, Deep Learning, Cybersecurity, Backend Engineering, and Financial Technology**. I enjoy working across the full development lifecycle — from research and system architecture to implementation, integration, and deployment.
+### AI / Machine Learning
+`PyTorch` · `Scikit-learn` · `Pandas` · `NumPy` · `LLMs` · `RAG` · `LangChain` · `LangGraph` · `FAISS`
 
-- **AI & Data Science:** LLMs, RAG, AI agents, predictive modeling, anomaly detection.
-- **Cybersecurity:** Network security, threat detection, security analytics, secure system design.
-- **Software Engineering:** REST APIs, backend systems, mobile applications, database-driven solutions.
-- **FinTech:** Financial data analysis, AI-powered financial applications, algorithmic trading infrastructure.
-- **Research & Innovation:** Applied AI, intelligent agriculture, and technology-driven product development.
+### Cybersecurity
+`Network Security` · `Anomaly Detection` · `Nmap` · `Wireshark` · `Kali Linux` · `Secure Software Development`
 
-I'm particularly interested in building practical systems that combine intelligent automation, reliable engineering, and security by design.
+### Backend & Infrastructure
+`Python` · `C#` · `.NET` · `FastAPI` · `REST APIs` · `Docker` · `GitHub Actions` · `SQL`
 
-## GitHub Analytics
+---
 
-<div align="center">
+## 📊 GitHub Statistics
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kaanirmak&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub statistics" />
-<img width="49%" src="https://streak-stats.demolab.com?user=kaanirmak&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+<p align="center">
+  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics, including contributions and commit activity" />
+  <img width="49%" src="./profile/top-langs.svg" alt="Most used programming languages" />
+</p>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaanirmak&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Most used programming languages" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaanirmak&theme=tokyonight" alt="GitHub contribution summary" />
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=kaanirmak&theme=tokyonight&hide_border=true" alt="GitHub contribution streak" />
+</p>
 
-</div>
+<p align="center">
+  <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kaanirmak&theme=tokyonight" alt="GitHub contribution summary" />
+</p>
 
-## Contribution Activity
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=kaanirmak&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub trophies" />
+</p>
 
-<div align="center">
+---
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kaanirmak&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution activity graph" />
+## 🚀 Featured Projects
 
-<img src="https://github-profile-trophy.vercel.app/?username=kaanirmak&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" width="100%" alt="GitHub achievements" />
+### 🧠 FinoraAI — Secure Financial AI Assistant
+An AI assistant concept designed for financial institutions, combining LLMs and Retrieval-Augmented Generation (RAG) with access controls and security-focused architecture.
 
-</div>
+**Focus:** LLMs · RAG · Python · FastAPI · FAISS · LangGraph · RBAC
 
-## Technical Skills
+### 🌱 AgroSense / FilizAI — AI-Powered Precision Agriculture
+An intelligent agriculture project combining AI-driven crop analysis, sensor data, and location-aware insights to support more informed agricultural decisions.
 
-<div align="center">
+**Focus:** AI/ML · Computer Vision · IoT · Flutter · .NET · Python · GIS
 
-**Languages**
+### 🔐 Cybersecurity & Anomaly Detection
+Research and development involving network traffic analysis, machine learning, and anomaly detection for identifying potentially suspicious activity.
 
-<img src="https://skillicons.dev/icons?i=python,cs,dotnet,java,cpp,dart,js,ts&theme=dark" alt="Programming languages" />
+**Focus:** Cybersecurity · Python · Machine Learning · Network Analysis · CIC-IDS2017
 
-**AI, Machine Learning & Data**
+---
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" alt="AI and machine learning technologies" />
+## 📈 What I'm Interested In
 
-**Backend, Databases & Infrastructure**
+- Building secure and production-ready AI applications
+- Developing LLM-powered systems with privacy and access control in mind
+- Applying machine learning to financial markets and cybersecurity
+- Designing reliable APIs, backend services, and automated workflows
+- Exploring the intersection of AI, finance, and security
 
-<img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,mysql,sqlite,redis,docker,linux,git,github&theme=dark" alt="Backend and infrastructure technologies" />
+---
 
-**Mobile & Development Tools**
+## 🤝 Connect With Me
 
-<img src="https://skillicons.dev/icons?i=flutter,firebase,vscode,visualstudio,bash&theme=dark" alt="Development tools" />
+<p align="center">
+  <a href="https://www.linkedin.com/in/kaanirmak/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/kaanirmak">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
-</div>
-
-## Areas of Interest
-
-| Domain | Focus |
-|---|---|
-| Artificial Intelligence | LLMs, RAG, AI agents, NLP |
-| Machine Learning | Predictive analytics, anomaly detection, model evaluation |
-| Cybersecurity | Network security, threat detection, secure architecture |
-| Backend Engineering | API design, distributed systems, service integration |
-| Financial Technology | Financial analytics, market data, trading systems |
-| Applied Research | Intelligent agriculture, sensor-driven systems, decision support |
-
-## Featured Work
-
-Explore my repositories for projects, experiments, and implementations across software engineering, AI, and cybersecurity.
-
-<div align="center">
-
-<a href="https://github.com/kaanirmak?tab=repositories"><img src="https://img.shields.io/badge/Explore%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-<a href="https://github.com/kaanirmak?tab=stars"><img src="https://img.shields.io/badge/Starred%20Projects-yellow?style=for-the-badge&logo=github&logoColor=black" /></a>
-
-</div>
-
-## Let's Connect
-
-I'm open to connecting with engineers, researchers, and teams working on AI, cybersecurity, FinTech, and innovative software products.
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/kaanirmak/"><img src="https://img.shields.io/badge/LinkedIn-Kaan%20Irmak-0A66C2?style=flat-square&logo=linkedin" /></a>
-<a href="https://github.com/kaanirmak"><img src="https://img.shields.io/badge/GitHub-kaanirmak-181717?style=flat-square&logo=github" /></a>
-
-**Engineering the future, one commit at a time.**
-
-</div>
+<p align="center">
+  <i>Building at the intersection of AI, cybersecurity, and financial technology.</i>
+</p>
