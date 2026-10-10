@@ -1,0 +1,44 @@
+
+name: Verify GitHub Statistics Access
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check GitHub token and profile
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GH_USERNAME: kaanirmak
+        run: |
+          set -euo pipefail
+
+          if [ -z "$GH_STATS_TOKEN" ]; then
+            echo "GH_STATS_TOKEN secret is missing."
+            exit 1
+          fi
+
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $GH_STATS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/user \
+            -o /tmp/auth-user.json
+
+          AUTH_USER=$(jq -r '.login' /tmp/auth-user.json)
+          echo "Authenticated GitHub account: $AUTH_USER"
+
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $GH_STATS_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/users/$GH_USERNAME" \
+            -o /tmp/profile.json
+
+          echo "Profile lookup successful."
+          echo "Public repository count: $(jq -r '.public_repos' /tmp/profile.json)"
