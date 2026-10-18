@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kaan Irmak's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 10, Total Commits  : 611, Total PRs: 24, Total Issues: 12, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 10, Total Commits  : 612, Total PRs: 25, Total Issues: 12, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 184.59494846666144;
+        stroke-dashoffset: 183.95574159274463;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >611</text>
+      >612</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >24</text>
+      >25</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
