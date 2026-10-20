@@ -34,6 +34,10 @@ jobs:
           AUTH_USER=$(jq -r '.login' /tmp/auth-user.json)
           echo "Authenticated GitHub account: $AUTH_USER"
 
+          echo "--- Checking Token OAuth Scopes ---"
+          SCOPES=$(curl -sI -H "Authorization: Bearer $GH_STATS_TOKEN" https://api.github.com/user | grep -i '^x-oauth-scopes:' || echo "x-oauth-scopes: none/fine-grained")
+          echo "$SCOPES"
+
           curl --fail --silent --show-error \
             -H "Authorization: Bearer $GH_STATS_TOKEN" \
             -H "Accept: application/vnd.github+json" \
@@ -42,3 +46,15 @@ jobs:
 
           echo "Profile lookup successful."
           echo "Public repository count: $(jq -r '.public_repos' /tmp/profile.json)"
+
+          echo "--- Testing GraphQL Stats Access (Commits, Private Contributions, PRs) ---"
+          curl --fail --silent --show-error \
+            -H "Authorization: Bearer $GH_STATS_TOKEN" \
+            -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"query\": \"query { user(login: \\\"$GH_USERNAME\\\") { pullRequests(first: 1) { totalCount } issues(first: 1) { totalCount } contributionsCollection { totalCommitContributions restrictedContributionsCount } } }\"}" \
+            https://api.github.com/graphql \
+            -o /tmp/graphql-stats.json
+
+          echo "GraphQL query result:"
+          jq '.' /tmp/graphql-stats.json
