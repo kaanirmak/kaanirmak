@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Kaan Irmak
 
-### Software Engineer | AI/ML Engineer | Cybersecurity & FinTech
+### Software Engineer | Fullstack Developer | AI/ML Engineer | Cybersecurity & FinTech
 
 I’m a Software Engineer focused on **Artificial Intelligence, Machine Learning, Cybersecurity, and Financial Technology**. I enjoy building practical, secure, and scalable software solutions — from intelligent data-driven systems to enterprise-grade AI applications.
 
