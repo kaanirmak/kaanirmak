@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kaan Irmak's GitHub Stats, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 30, Total Commits  : 735, Total PRs: 33, Total PRs Merged: 31, Merged PRs Percentage: 93.94, Total PRs Reviewed: 0, Total Issues: 12, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 30, Total Commits  : 736, Total PRs: 34, Total PRs Merged: 32, Merged PRs Percentage: 94.12, Total PRs Reviewed: 0, Total Issues: 12, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 159.79708025959755;
+        stroke-dashoffset: 159.23218651264744;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >735</text>
+      >736</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >33</text>
+      >34</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged"
-      >31</text>
+      >32</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >93.94 %</text>
+      >94.12 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
